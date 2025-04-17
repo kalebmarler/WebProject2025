@@ -1,0 +1,95 @@
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy;
+    background-color: rgb(252, 241, 227);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1{
+    font-family: initial;
+    font-weight: 800;
+    font-size: 50px;
+}
+/* Header styles */
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+}
+
+nav {
+    margin-bottom: 1rem;
+}
+
+nav a:hover {
+    background-color: rgb(252, 241, 227);
+    border-color: #000;
+}
+nav a {
+    padding: 7px 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #444;
+}
+
+nav a.active {
+    font-weight: bold;
+    color: #000;
+}
+
+.intro {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Ring gallery */
+.ring-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.ring-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.ring-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.ring-card h2 {
+    margin: 0.5rem 0;
+}
+
+.ring-card p {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #777;
+}
